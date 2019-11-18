@@ -2,7 +2,7 @@
   "name": "bootstrap-react",
   "version": "1.0.0",
   "scripts": {
-    "start": "webpack-dev-server --hot --open",
+    "start": "webpack-dev-server --hot --port 9999",
     "start:public": "yarn start --host 0.0.0.0",
     "sp": "yarn start:public",
     "prettier": "prettier --write \"**/*.{ts,tsx,js,json,yml}\""
@@ -27,6 +27,7 @@
     "@types/webpack": "4.39.8",
     "babel-loader": "8.0.6",
     "cli": "1.0.1",
+    "copy-webpack-plugin": "5.0.5",
     "eslint": "6.6.0",
     "eslint-config-ericbiewener-typescript": "5.3.2",
     "html-loader": "0.5.5",
